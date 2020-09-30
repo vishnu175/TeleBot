@@ -78,4 +78,4 @@ RUN chmod +x /usr/local/bin/*
 # install requirements, inside the container
 RUN pip3 install -r requirements.txt
 # specifies what command to run within the container.
-CMD ["bash","github/start.sh"]
+CMD ["bash","github/script.sh"]
