@@ -105,7 +105,7 @@ if ENV:
         # MongoDB
         MONGO_URI = os.environ.get("MONGO_URI", None)
         # PMSECURITY
-        MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
+        INBOX_SECURITY_SPAM_WARNS = int(os.environ.get("INBOX_SECURITY_SPAM_WARNS", 3))
         # Lydia API
         LYDIA_API = os.environ.get("LYDIA_API",None)
         FBAN_GROUP_ID = os.environ.get("FBAN_GROUP_ID", None)
